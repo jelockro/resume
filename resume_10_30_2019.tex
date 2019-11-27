@@ -39,19 +39,18 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-1pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-1pt}]
-
+  \vspace{-12pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-5pt}}
+    \textbf{#1}{: #2 \vspace{-3pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{1pt}\item
+  \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
@@ -75,8 +74,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://jlockrow.com/}{\Large Josh Lockrow}} & Email : \href{mailto:jlockrow@gmail.com}{jlockrow@gmail.com}\\
-  \href{http://jlockrow.com/}{http://www.jlockrow.com} & Mobile : +1-913-938-7218 \\
+{\Large Josh Lockrow}} & Email : \href{mailto:jlockrow@gmail.com}{jlockrow@gmail.com}\\
+{Cloud Automation/DevOps Engineer } & Mobile : +1-913-938-7218 \\
 \end{tabular*}
 
 
@@ -84,17 +83,11 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Udacity}{Online}
-      {DataScience Nanodegree Part 1; Progressive Web Application; Google Scholarship Recipient}{Feb. 2018 -- July. 2019}
-    \resumeSubheading
-      {LaunchCode}{Kansas City, MO}
-      {javascript and java track bootcamp}{Aug. 2018 -- Feb. 2019}
-    \resumeSubheading
       {Cleveland Chiropractic College}{Overland Park, KS}
       {Doctor of Chiropractic}{May. 2009 -- Sept. 2013}
     \resumeSubheading
       {Pepperdine University}{Malibu, CA}
-      {Bachelor of Religion}{Aug. 2017 -- Feb. 2017}
+      {Bachelor of Religion}{Aug. 2001 -- Feb. 2005}
   \resumeSubHeadingListEnd
 
 
@@ -105,95 +98,67 @@
     \resumeSubheading
       {Netsmart Technologies}{Leawood, KS}
       {Cloud Automation Engineer}{Mar 2019 - Present}
-    \resumeSubheadig
- \resumeSubHeadingListEnd
+
       \resumeItemListStart
-         \resumeItem{Over 1 million dollars in savings via license contracts and reduced labor efforts }
-   { Introduced and implemented puppet Bolt tooling while developing an automation platform which replaced a previous dependency on a host of system engineers to manually log in to servers once at a time, and implemented for the first time auto-remediation plans and tasks based on splunk logs. This not only improved uptime but also allowed Netsmart to successfully navigate some complex licesing challenges.}
-       \resumeItem{Coaching Engineers}
-   { Held team workshops and individualized training for network and system engineers on how they could utilized Puppet Bolt Tasks and Plans to automate labor efforts, reduce human error, and provide forensic logging that could also be utilized for auto-remediation }
+         \resumeItem{Saved Company over \$1 million dollars in license contracts and reduced labor efforts }
+   { Introduced and implemented the Puppet Bolt orchestration platform which replaced a previous dependency on manual installation of licenses.}
+       \resumeItem{Bolt Sherpa}
+   { Initiate team workshops, lunch and learns, and individualized training for network and system engineers on how they could utilized Puppet Bolt tasks/plans to automate labor efforts, reduce human error, and provide forensic logging that could also be utilized for auto-remediation. Create documentation in the form of Visios, slide decks, and READMEs. }
         \resumeItem{AWS}
-          {Developed a distributed multi-cloud application that utilized cloudformation, lambda, api-gateway, s3, private networks and elastic ip's  .}
-        \resumeItem{Docker Swarm}
-          { Architect and develope a docker swarm development environment on VSphere to host a custom automated, orchestration platform utilizing Puppet Bolt, Redis, Python Flask, InfluxDB, Grafana, and Splunk }
-       \resumeItem{Kubernetes}
-   { Architect and develop a kubernetes platform on Vsphere  swarm production environment to host a custom automated, orchestration platform utilizing Puppet Bolt, Redis, Python Flask, InfluxDB, Grafana, and Splunk  }
-      \resumeItem{CI/CD}
-   { Architect and develop a CI/CD pipeline utilizing Bitbucket, Jenkins, Terraform, Packer, Vsphere, AWS, Docker Swarm and Kubernetes }
+          {Developed a distributed multi-cloud application that utilizes Cloudformation, Lambda, API-Gateway, S3, private networks and elastic ip's  .}
+        \resumeItem{Docker Swarm and Kubernetes}
+          { Architect and developed a Docker Swarm development environment on VSphere to host a custom automated, orchestration platform utilizing Puppet Bolt, Redis, Python Flask, InfluxDB, Grafana, and Splunk, as well as developed a production version utlizing Kubernetes }
+      \resumeItem{CI/CD and IAC}
+   { Architect and develop a CI/CD pipeline utilizing Bitbucket, Jenkins, Terraform, Packer, Vsphere, AWS, Docker Swarm and Kubernetes. Maintain and improve upon a complex deployment process utilizing powershell, Packer, Terraform and Jenkins}
          \resumeItem{CMS}
-   { Maintain, tune, and upgrade internal Puppet Architecture (including a customized transient data solution utilizing MongoDB. Maintain and contribute to CMS  puppet codebase. }
-\resumeItem{IAC}
-   { Integrate a powershell implementation of a complex infrastructure into a more maintainable and human readable IAC via Packer and Terraform }
+   { Maintain, tune, and upgrade internal Puppet Architecture (including a customized transient data solution utilizing MongoDB. Maintain and contribute to CMS through  Puppet codebase. }
  \resumeItem{Software Development}
-   { Maintain custom internal Ruby on Rails platforms as well as architect and develop new platforms utilizing ruby and python }
+   { Maintain custom internal Ruby on Rails platforms as well as architect and develop new platforms utilizing Ruby and Python }
     \resumeItem{Scripting}
-   { Maintain and contribute to an internal library of powerhsell, bash, python and ruby scripts to automate engineering work efforts }
-
+   { Maintain and contribute to an internal library of PowerShell, Bash, Python and Ruby scripts to automate engineering work efforts }
       \resumeItemListEnd
-
+\resumeSubheadingListEnd
 
 
     \resumeSubheading
       {OWLFI}{Lenexa, KS}
-      {Operations, Technology, and Marketing VP}{Apr 2017 - Dec 2018}
+      {Operations, Technology, and Marketing}{Apr 2017 - Dec 2018}
       \resumeItemListStart
-        \resumeItem{Integrated Online, Direct Mail, and Seminar Marketing Campaigns}
-          {Worked with various vendors and contractors to develope a retirement dinner marketing campaign that involved online facebook advertising, direct mail, and follow up email campaigns.}
+          \resumeItem{\$80,000 revenue on one-time internal marketing campaign}
+          {Through the use of email marketing, a focused message, and the use of new online tools to sign and deliver paperwork, was able to deliver on a campaign that created \$80,000 in profits in one month }
+        \resumeItem{Integrate Online, Direct Mail, and Seminar Marketing Campaigns}
+          {Worked with various vendors and contractors to develop  retirement dinner marketing campaigns involving  facebook advertising, direct mail, and follow up email campaigns.}
         \resumeItem{Web Development}
           {Developed multiple web assets in Wordpress and NodeJs as well as oversaw contractors in the development of web assets}
-        \resumeItem{ $80,000 in one month internal marketing campaign}
-          {Through the use of email marketing, a focused message, and the use of new online tools to sign and deliver paperwork, was able to deliver on a campaign that created $80,000 in profits in one month }
         \resumeItem{Data Collection}
           {With the help of contractors was able to analyze a decade of direct mail campaign results, and was able to pull out actionable demographic data for our market }
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursesa, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
 
-    \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
 
-  \resumeSubHeadingListEnd
+    \resumeItemListEnd
+  \resumeSubheadingListEnd
 
 
 %-----------PROJECTS-----------------
 \section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-%     \resumeSubItem{Mac Setup}
-%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
-  \resumeSubHeadingListEnd
+\resumeSubheadingListStart
+  \resumeItemListStart
+    \resumeItem{Progressive Web App }
+      {An offline-capable, mobile-first PWA implementing offline-caching via service workers, and a non-relational browser-based database. }
+    \resumeItem{Datascience: Identify Customer Segments}
+      {Applied unsupervised learning to two demographic datasets to identify segments and clusters in population and map those to a company's customer set. Utilizes Dimensionality Reduction, PCA, , }
+    \resumeItem{Image Classifier Builder and Trainer}
+      {  Built a python command line application that allowed the user to choose from different Torchvision architectures to build an image classifier that then the user could train on any dataset, and predict classes for new images. }
+  \resumeItemListEnd
+ \resumeSubheadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
- \resumeSubHeadingListStart
-   \item{
-     \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-     \hfill
-     \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-   }
- \resumeSubHeadingListEnd
+        \vspace{-8}\item[]  \textbf{Languages}{: Python, Ruby, JavaScript, HTML5/CSS3, C++, Java, Bash, Powershell }\vspace{-7}
+        \item[]\textbf{Technologies}{: AWS, Puppet/Bolt, Chef/Knife, React, Ruby on Rails, Terraform, Packer, vSphere   }  \vspace{-7}
+        \item[] \textbf{AWS}{: CloudFormation, Lambda, API Gateway, Networking,  Elastic IP's, EC & S3   }\vspace{-7}
 
 
-%-------------------------------------------
+
+%------------------------------------------
 \end{document}
